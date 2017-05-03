@@ -1,0 +1,241 @@
+body {
+background-image: url('sky.jpg');
+padding:0; 
+margin:0;
+}
+
+#header{width:1000px; height:100px; background:white; margin-left:auto; margin-right:auto;}
+
+#main_content{width:700px; border-right:2px solid gray;  float:left; background:white; margin-left:132px;}
+
+#main_content p {padding:5px;}
+
+#main_content a:link{font-size:22px; font-family:comic sans MS;}
+
+#searchbox {text-align:center; margin:10px;}
+
+#main_content h2 {padding:5px; color:brown;}
+
+#sidebar{width:298px; float:right; background:gray; margin-right:130px;}
+
+#sidebar h2{font-size:33px; font-family:comic sans MS; color:yellow;}
+
+#footer{width:100%; height:80px; background:brown; clear:both;}
+
+
+#logo{float:left;}
+#banner{float:right;}
+
+#navbar{background:brown; width:1000px; margin-right:auto; margin-left:auto; height:45px; margin-top:0;}
+#navbar ul {padding-top:8px;}
+#navbar ul li{list-style:none; display:inline;}
+#navbar ul li a:link{color:white; border-right:1px solid white; text-decoration:none; font-size:18px; font-family:comic sans MS; margin:5px; padding:4px;}
+
+#navbar li a:visited{color:white;}
+
+#navbar ul li a:hover{color:white; text-decoration:underline; font-size:18px; background:black; padding:5px;}
+
+
+#social {text-align:center; border-bottom:2px solid yellow;}
+
+#social img {width:40px; margin:5px; padding:3px;}
+
+#social h2 {font-size:33px; font-family:comic sans MS; color:yellow;}
+
+/**************Carouses****************/
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+ .carousel-caption {
+    z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+ .carousel .item {
+    width: 100%;
+    height: 500px;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    /*position: absolute;*/
+    position: relative;
+    /*top: 0;*/
+   /* left: 0;*/
+    /* min-width: 100%; */
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+}
+
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+div{
+    display: block;
+}
+@media (min-width: 768px) {
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+}
+img {
+    background: grey;
+}
+
+/********************ahhhoooooooo *************************/
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+/*********Buttons on the right side**********/
+#signContent{
+    float: right;
+    max-width: 100%;
+}
+#signCont{
+    float: right;
+    max-width: 100%;
+}
+.signinbtn {
+position: absolute;
+top: 10px;
+padding-right: 30px;
+right: 10px;
+display: inline-block;
+}
+
+signinbtn:hover {
+    background-color: blue;
+}
